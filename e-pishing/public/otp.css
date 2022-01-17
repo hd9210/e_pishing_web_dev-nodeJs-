@@ -1,0 +1,34 @@
+*{margin-left: .5em;
+  padding: 0;}
+
+
+  h3{width:100%;
+     margin:1em 0em;
+     font-family: sans-serif;
+}
+
+div{
+
+    width:100%;
+    margin:1em 0em;
+    font-family: sans-serif;
+}
+
+.btn{
+
+width:96%;
+background-color: #FB641B;
+color:white;
+border:none;
+border-radius:3px;
+margin:2em 2%;
+height:3.5em;
+}
+
+#txt{
+
+margin:0em .5em;
+padding:1em 3em;
+border:1px solid darkgray;
+}
+

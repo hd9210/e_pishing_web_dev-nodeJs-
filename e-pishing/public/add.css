@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;
+ font-family:Roboto,Arial,sans-serif;
+}
+.head{background-color: #2874F0;
+      color:cornsilk;
+      
+      padding:1em 3em;
+      
+      font-size: 1em;
+      }
+#img1{
+margin: 0em 0.5em;
+width:100%;
+
+}
+#submit{
+
+background-color: #FB641B;
+color: white;
+font-size: 2em;
+border: none;
+border-radius: 3px;
+width:92.1%;
+margin:.5em .25em;
+}
+
+.con >div{
+margin:1em 0em;
+
+}
+
+.con >div>input{
+    margin:0em 0.5em;
+    padding:1em 1em;
+    width: 87%;
+    border:1px solid darkgray;
+    border-radius: 3px;
+
+    }
+
+.add{
+display: flex;
+flex-direction: row;
+}
+
+.add>div>input{width:47%;}

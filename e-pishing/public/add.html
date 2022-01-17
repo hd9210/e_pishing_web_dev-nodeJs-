@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="add.css">
+      <title>Document</title>
+  </head>
+  <body>
+      <div class="head">Delivery Address</div>
+      <img id="img1" src="11.jpg" alt="">
+      <form class="con" action="/c" method="POST">
+         <div><input id="name" type="text" required placeholder="Full Name (Required)*"></div>
+         <div><input id="phone" type="number" maxlength="10" required placeholder="Phone Number (Required)*"></div>
+         <div><input id="pincode" type="number" required maxlength="6" required placeholder="Pincode (Required)*"></div> 
+         <div class="add"> <input id="state" type="text" required placeholder="State (Required)*">
+          <input id="city" type="text" required placeholder="City (Required)*"> </div>
+          <div><input id="addressLine1" type="text" required placeholder="House No., Building Name (Required)*"></div>
+          <div><input id="addressLine2" type="text" required placeholder="Road Name, Area, Colony (Required)*"></div>
+          <input type="submit" id="submit" value="Continue">
+      </form>
+  </body>
+  </html>
